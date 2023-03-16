@@ -1,0 +1,382 @@
+#add-btn:hover,
+#add-btn2:hover,
+#login:hover,
+#line-details:hover {
+  background-color: white !important;
+  color: #8ac640 !important;
+  border: 0.5px solid #8ac640;
+}
+
+#view-image:hover,
+#add-home:hover {
+  background-color: white !important;
+  color: #666 !important;
+  border: 0.5px solid #666;
+}
+
+#add-home-2:hover {
+  background-color: #666 !important;
+  color: whitesmoke !important;
+}
+
+#add-reading:hover,
+i:hover {
+  cursor: pointer;
+}
+
+#add-reading > button,
+#icons > button {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+#add-image:hover,
+#icons > button:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+}
+
+#icons > button:hover {
+  animation: shake_ 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes shake_ {
+  10%,
+  90% {
+    transform: translate3d(0, -1px, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(0, 2px, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(0, -4px, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(0, 4px, 0);
+  }
+}
+
+@media (max-width: 575.98px) {
+  #add-btn {
+    width: 100% !important;
+  }
+
+  #add-btn-icon {
+    padding-right: 2% !important;
+  }
+
+  #add-buttons {
+    flex-direction: column;
+  }
+
+  #add-btn2 {
+    margin-bottom: 5%;
+  }
+
+  #add-form {
+    width: 60% !important;
+  }
+
+  #add-form > form {
+    width: 100% !important;
+  }
+
+  #edit-buttons {
+    flex-direction: column;
+  }
+
+  #edit-form {
+    width: 60% !important;
+  }
+
+  #edit-form > form {
+    width: 100% !important;
+  }
+
+  #history-home-btn {
+    width: 70% !important;
+  }
+
+  #view-buttons {
+    flex-direction: column;
+  }
+
+  #line-details {
+    margin-bottom: 8%;
+  }
+
+  #view-card {
+    width: 75% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  #alert {
+    display: none !important;
+  }
+
+  #login-div {
+    width: 70% !important;
+  }
+
+  #login {
+    width: 95% !important;
+  }
+
+  #nav-logo {
+    display: none !important;
+  }
+
+  #nav-logout {
+    margin-top: 5% !important;
+    justify-content: center !important;
+  }
+
+  #nav-date {
+    margin-top: 5% !important;
+  }
+
+  #history-table {
+    width: 950px !important;
+  }
+
+  #add-line-btn {
+    margin-bottom: 4% !important;
+  }
+
+  #main-table {
+    width: 950px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #add-btn {
+    width: 100% !important;
+  }
+
+  #add-btn-icon {
+    padding-right: 2% !important;
+  }
+
+  #add-buttons {
+    flex-direction: column;
+  }
+
+  #add-btn2 {
+    margin-bottom: 5%;
+  }
+
+  #add-form {
+    width: 60% !important;
+  }
+
+  #add-form > form {
+    width: 100% !important;
+  }
+
+  #edit-buttons {
+    flex-direction: column;
+  }
+
+  #edit-form {
+    width: 60% !important;
+  }
+
+  #edit-form > form {
+    width: 100% !important;
+  }
+
+  #history-home-btn {
+    width: 50% !important;
+  }
+
+  #alert {
+    display: none !important;
+  }
+
+  #view-buttons {
+    flex-direction: column;
+  }
+
+  #line-details {
+    margin-bottom: 6%;
+  }
+
+  #view-card {
+    width: 65% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  #login {
+    width: 93% !important;
+  }
+
+  #nav-logo {
+    display: none !important;
+  }
+
+  #nav-logout {
+    margin-top: 5% !important;
+    justify-content: center !important;
+  }
+
+  #nav-date {
+    margin-top: 5% !important;
+  }
+
+  #history-table {
+    width: 950px !important;
+  }
+
+  #add-line-btn {
+    margin-bottom: 4% !important;
+  }
+
+  #main-table {
+    width: 950px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #add-btn {
+    width: 35% !important;
+  }
+
+  /* #reading-div {
+    flex-direction: column;
+    justify-content: center !important;
+  } */
+
+  /* #reading-div-input {
+    width: 100% !important;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 2%;
+  } */
+
+  #add-buttons {
+    flex-direction: column;
+  }
+
+  #add-btn2 {
+    margin-bottom: 5%;
+  }
+
+  #add-form {
+    width: 50% !important;
+  }
+
+  #add-form > form {
+    width: 100% !important;
+  }
+
+  #edit-buttons {
+    flex-direction: column;
+  }
+
+  #edit-form {
+    width: 50% !important;
+  }
+
+  #edit-form > form {
+    width: 100% !important;
+  }
+
+  #history-home-btn {
+    width: 50% !important;
+  }
+
+  #alert {
+    display: none !important;
+  }
+
+  #view-card {
+    width: 55% !important;
+  }
+
+  #login {
+    width: 95% !important;
+  }
+
+  #nav-logo {
+    display: none !important;
+  }
+
+  #nav-logout {
+    margin-top: 5% !important;
+    justify-content: center !important;
+  }
+
+  #nav-date {
+    margin-top: 5% !important;
+  }
+
+  #history-table {
+    width: 950px !important;
+  }
+
+  #main-table {
+    width: 950px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #add-btn {
+    width: 20% !important;
+  }
+
+  #add-buttons {
+    flex-direction: column;
+  }
+
+  #add-btn2 {
+    margin-bottom: 5%;
+  }
+
+  #edit-buttons {
+    flex-direction: column;
+  }
+
+  #main-table {
+    width: 950px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+}
